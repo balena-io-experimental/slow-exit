@@ -5,10 +5,10 @@ services:
     image: local
     environment: 
       # Wait 20 seconds before exit
-      - TIME_TO_EXIT=20
+      - WAIT_FOR_EXIT=20
 
   well-behaved:
     build: ./
     image: local
     environment:
-      - TIME_TO_EXIT=5
+      - WAIT_FOR_EXIT=5

@@ -1,7 +1,6 @@
 # slow-exit
 Simulate a service that waits too long to be killed
 
-
 ## Usage
 
 - Clone the repo
